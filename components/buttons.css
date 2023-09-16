@@ -1,0 +1,50 @@
+@import url(typography.css);
+
+:root {
+    /* Colors */
+    --dark-purple: #24053E;
+    --green: #44FFA1;
+    --grey: #584D62;   
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    color: var(--dark-purple);
+}
+
+
+.button-primary-default {
+    all: unset;
+    outline: revert;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: var(--green);
+    padding-inline: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    color: #24053E;
+    
+    
+}
+
+
+.button-primary-default:hover {
+    background-color: var(--dark-purple);
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+
+.button-secondary-default {
+    all: unset;
+    outline: revert;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    border-bottom: 2px solid var(--green);
+}
+
+.button-secondary-default:hover {
+    color: var(--green);
+}
